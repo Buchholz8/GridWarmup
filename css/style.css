@@ -1,0 +1,12 @@
+header{
+    display: grid;
+}
+#mainlogo {
+    justify-self: start;
+}
+#titlelink {
+    justify-self: end;
+}
+main {
+    display: grid;
+}
