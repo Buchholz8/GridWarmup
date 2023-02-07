@@ -1,5 +1,8 @@
 header{
+    width: 80%;
+    height: 10vh;
     display: grid;
+    grid-template-columns: repeat(auto-flow(300px, 1fr));
 }
 #mainlogo {
     justify-self: start;
@@ -9,4 +12,23 @@ header{
 }
 main {
     display: grid;
+    width: 80%;
+    height: 80vh;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+#section_1 {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+#section_2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+#section_3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
